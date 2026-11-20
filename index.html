@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizForge | Study Smarter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <nav class="navbar">
+        <div class="logo">✿ QuizForge</div>
+        <div class="nav-text">Your little study space ♡</div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <span class="tag">✦ YOUR STUDY COMPANION</span>
+            <h1>Study smarter,<br>not harder! <span>♡</span></h1>
+            <p>Turn your lecture notes into fun quizzes and make learning a little more magical.</p>
+        </div>
+
+        <div class="hero-art">
+            <div class="floating-star star-one">✦</div>
+            <div class="floating-star star-two">✧</div>
+            <div class="book">📚</div>
+            <div class="hero-circle"></div>
+        </div>
+    </section>
+
+    <section class="subjects-section">
+
+        <div class="section-heading">
+            <div>
+                <h2>Choose your subject 🌷</h2>
+                <p>What are we studying today?</p>
+            </div>
+            <span class="mini-label">4 SUBJECTS</span>
+        </div>
+
+        <div class="subject-grid">
+
+            <div class="subject-card ml-card" onclick="selectSubject('Machine Learning', this)">
+                <div class="subject-icon">🧠</div>
+                <span class="subject-label">SUBJECT 01</span>
+                <h3>Machine Learning</h3>
+                <p>Models, algorithms & data</p>
+                <span class="card-arrow">↗</span>
+            </div>
+
+            <div class="subject-card db-card" onclick="selectSubject('Database', this)">
+                <div class="subject-icon">🗄️</div>
+                <span class="subject-label">SUBJECT 02</span>
+                <h3>Database</h3>
+                <p>SQL, ERD & data systems</p>
+                <span class="card-arrow">↗</span>
+            </div>
+
+            <div class="subject-card ai-card" onclick="selectSubject('Artificial Intelligence', this)">
+                <div class="subject-icon">🤖</div>
+                <span class="subject-label">SUBJECT 03</span>
+                <h3>Artificial Intelligence</h3>
+                <p>Search, reasoning & intelligence</p>
+                <span class="card-arrow">↗</span>
+            </div>
+
+            <div class="subject-card cc-card" onclick="selectSubject('Compiler Construction', this)">
+                <div class="subject-icon">💻</div>
+                <span class="subject-label">SUBJECT 04</span>
+                <h3>Compiler Construction</h3>
+                <p>Parsing, grammar & languages</p>
+                <span class="card-arrow">↗</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="quiz-section" id="quiz-setup">
+
+        <div class="section-heading">
+            <div>
+                <h2>Create your quiz ✨</h2>
+                <p>Upload your notes and let the magic begin!</p>
+            </div>
+        </div>
+
+        <div class="quiz-box">
+
+            <div class="selected-subject" id="selected-subject">
+                🌸 Select a subject above
+            </div>
+
+            <label>Upload your study notes</label>
+
+            <div class="upload-box" id="upload-box">
+
+                <div class="upload-icon">☁️</div>
+
+                <h3>Drop your notes here</h3>
+
+                <p>or browse files from your device</p>
+
+                <label for="notes-file" class="upload-btn">
+                    📎 Choose File
+                </label>
+
+                <input type="file" id="notes-file" accept=".pdf,.docx,.txt">
+
+                <div class="file-types">
+                    PDF · DOCX · TXT
+                </div>
+
+                <div id="file-info"></div>
+
+            </div>
+
+            <div class="settings-grid">
+
+                <div class="setting">
+                    <label for="difficulty">Quiz difficulty</label>
+                    <select id="difficulty">
+                        <option value="Easy">🌱 Easy</option>
+                        <option value="Medium" selected>🌷 Medium</option>
+                        <option value="Hard">🔥 Hard</option>
+                    </select>
+                </div>
+
+                <div class="setting">
+                    <label for="question-count">Number of questions</label>
+                    <select id="question-count">
+                        <option value="5">5 Questions</option>
+                        <option value="10" selected>10 Questions</option>
+                        <option value="15">15 Questions</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button class="generate-btn" onclick="generateQuiz()">
+                ✨ Generate My Quiz
+            </button>
+
+            <p class="bottom-note">made with love & little study dreams ♡</p>
+
+        </div>
+
+    </section>
+
+    <section class="quiz-area" id="quiz-area"></section>
+
+    <section class="result-area" id="result-area"></section>
+
+    <footer>
+        <p>✿ QuizForge · A little magic for your learning journey</p>
+    </footer>
+
+</div>
+
+<!-- PDF reading library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+<!-- Word document reading library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.8.0/mammoth.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
