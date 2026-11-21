@@ -2,7 +2,7 @@
 
 **QuizForge is a simple and user-friendly study application that converts uploaded lecture notes into multiple-choice quizzes to help students prepare for exams more effectively.**
 
-🌐 **Live Demo:** Coming Soon — GitHub Pages Deployment  
+🌐 Live Demo: https://kubrashams.github.io/quizforge/ 
 🎥 **Demo Video:** Coming Soon
 
 ---
