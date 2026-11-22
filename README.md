@@ -1,9 +1,9 @@
-# 🎓 QuizForge — Turn Your Notes into Quizzes
+# QuizForge — Turn Your Notes into Quizzes
 
 **QuizForge is a simple and user-friendly study application that converts uploaded lecture notes into multiple-choice quizzes to help students prepare for exams more effectively.**
 
-🌐 Live Demo: https://kubrashams.github.io/quizforge/ 
-🎥 **Demo Video:** Coming Soon
+Live Demo: https://kubrashams.github.io/quizforge/ 
+Demo Video:** Coming Soon
 
 ---
 
@@ -13,18 +13,18 @@ Students often have lengthy lecture notes and limited time to prepare for examin
 
 QuizForge addresses this problem by providing a simple way to turn study notes into practice quizzes.
 
-## 💡 Our Solution
+##  Our Solution
 
 QuizForge allows students to upload their lecture notes, select a subject and quiz settings, and generate multiple-choice questions for quick and convenient practice.
 
-## ✨ Features (MVP)
+##  Features (MVP)
 
-### 1. 📂 Upload Notes
+### 1. Upload Notes
 - Upload notes in PDF, DOCX, and TXT formats.
 - Extract text from uploaded documents.
 - Simple file upload interface.
 
-### 2. 📝 Generate Quiz
+### 2.  Generate Quiz
 - Select from four subjects:
   - Machine Learning
   - Database
@@ -34,7 +34,7 @@ QuizForge allows students to upload their lecture notes, select a subject and qu
 - Select the desired number of questions.
 - Generate multiple-choice questions from uploaded notes.
 
-### 3. 📊 Results and Answer Review
+### 3.  Results and Answer Review
 - Answer MCQs interactively.
 - Get immediate feedback on answers.
 - View final score and percentage.
@@ -108,17 +108,17 @@ AI tools were used as development assistants. Their suggestions were tested and 
 
 ### Kubra Shams
 **What I personally built and learned:**  
-I worked on developing QuizForge, including its user interface, subject selection, notes upload functionality, and quiz generation using JavaScript. I learned how HTML, CSS, and JavaScript work together to build an interactive web application and how to debug problems during development.
+I worked on the JavaScript part of QuizForge, including subject selection, notes upload functionality, and quiz generation. I learned how JavaScript makes a web application interactive and how to handle user input, generate questions, and debug problems during development.
 
 **Where AI helped and where it misled me:**  
-AI helped me write code faster, understand errors, and improve the interface. However, some initial code generated fewer questions than selected, and some questions were too long. I tested the application, identified these issues, and improved the code.
+AI helped me write code faster, understand errors, and improve the application. However, some initial code generated fewer questions than selected, and some questions were too long. I tested the application, identified these issues, and improved the code.
 
 **What I would change about our teamwork:**  
 I would divide tasks more clearly from the beginning, test each feature earlier, and communicate progress more frequently to make better use of hackathon time.
 
 ### Kanwal Gul
 **What I personally built and learned:**  
-I contributed to the development of QuizForge and learned how collaborative development, project organization, and building a student-focused application work in a hackathon environment.
+I contributed to the HTML structure of QuizForge, including organizing the page elements and creating the basic structure of the user interface. I learned how HTML provides the foundation of a web application and how proper page structure improves usability.
 
 **Where AI helped and where it misled me:**  
 AI helped us brainstorm ideas and speed up development, but its initial suggestions sometimes needed testing, correction, and improvement before they worked as expected.
@@ -128,14 +128,13 @@ I would plan tasks in advance, assign responsibilities clearly, and make sure ev
 
 ### Sineha Kumari
 **What I personally built and learned:**  
-I participated in the QuizForge project and gained experience with the development process, teamwork, and building a practical application to solve a student problem.
+I contributed to the CSS styling of QuizForge, including the visual appearance, layout, and presentation of the application. I learned how CSS works with HTML to create a user-friendly interface and how styling can improve the overall user experience.
 
 **Where AI helped and where it misled me:**  
 AI helped us with coding suggestions and troubleshooting. I learned that AI-generated code should always be checked, tested, and understood instead of blindly accepting it.
 
 **What I would change about our teamwork:**  
 I would improve coordination between team members, divide the workload efficiently, and keep testing and communication consistent throughout the project.
-
 ## 🔮 Future Improvements
 
 We plan to improve QuizForge with the following features:
