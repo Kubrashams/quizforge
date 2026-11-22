@@ -38,7 +38,7 @@ button {
 .logo {
     font-size: 27px;
     font-weight: 900;
-    color: #9274D8;
+    color: #9c88ca;
 }
 
 .nav-text {
@@ -462,7 +462,7 @@ button {
 .progress-track {
     width: 100%;
     height: 9px;
-    background: #EEE5FA;
+    background: #dbd8091f;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 30px;
