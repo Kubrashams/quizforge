@@ -81,7 +81,7 @@ Follow these steps to run QuizForge on your computer:
 | Name | Student ID | Role |
 |---|---|---|
 | Kubra Shams | 023-24-0004 | Product Lead / Frontend |
-| Kanwal Gul | 023-24-0001 | Frontend / UI |
+| Kanwal Gul | 023-24-0001 | Frontend - UI |
 | Sineha Kumari | 023-24-0024 | Logic / Testing |
 
 ## 🤖 AI Log
